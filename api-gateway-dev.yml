@@ -50,24 +50,10 @@ spring:
 springdoc:
   swagger-ui:
     urls:
-      - name: conversation-service
-        url: /v3/api-docs/conversation-service
-      - name: friend-service
-        url: /v3/api-docs/friend-service
       - name: group-service
         url: /v3/api-docs/group-service
-      - name: media-service
-        url: /v3/api-docs/media-service
-      - name: message-service
-        url: /v3/api-docs/message-service
-      - name: notification-service
-        url: /v3/api-docs/notification-service
-      - name: post-service
-        url: /v3/api-docs/post-service
       - name: user-service
         url: /v3/api-docs/user-service
-      - name: exam-service
-        url: /v3/api-docs/exam-service
 
 resilience4j:
   circuitbreaker:
