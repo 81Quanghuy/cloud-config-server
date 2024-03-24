@@ -32,6 +32,3 @@ management:
   endpoint:
     health:
       show-details: always
-spring:
-  config:
-    import: optional:configserver:http://localhost:8888

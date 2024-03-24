@@ -9,8 +9,6 @@ server:
   port: 8200
 
 spring:
-  config:
-    import: optional:configserver:http://localhost:8888
   application:
     name: friend-service
   data:
