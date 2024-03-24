@@ -8,10 +8,15 @@ server:
 api:
   prefix: api
   version: v1
-
+app:
+  eureka-server: localhost
 spring:
   application:
     name: api-gateway
+  main:
+    web-application-type: reactive
+  profiles:
+    active: dev
   cloud:
     gateway:
       routes:
