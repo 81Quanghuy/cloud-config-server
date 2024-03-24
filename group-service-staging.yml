@@ -7,6 +7,8 @@ server:
   port: 8300
 
 spring:
+  config:
+    import: optional:configserver:http://localhost:8888
   application:
     name: group-service
   data:

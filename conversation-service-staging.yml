@@ -7,6 +7,8 @@ server:
   port: 8100
 
 spring:
+  config:
+    import: optional:configserver:http://localhost:8888
   application:
     name: conversation-service
   data:
