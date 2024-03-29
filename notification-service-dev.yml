@@ -9,6 +9,8 @@ server:
   port: 8600
 
 spring:
+  application:
+    name: notification-service
   data:
     mongodb:
       database: notification_service

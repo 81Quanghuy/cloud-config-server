@@ -7,17 +7,19 @@ server:
   port: 8600
 
 spring:
+  application:
+    name: notification-service
   data:
     mongodb:
       database: notification_service
       uri: mongodb+srv://admin:admin@java-cluster.dydtuf8.mongodb.net/
 
-springdoc:
-  packages-to-scan:
-    com.trvankiet.app
-  api-docs:
-    path: /v3/api-docs/notification-service
-    
+#springdoc:
+#  packages-to-scan:
+#    com.trvankiet.app
+#  api-docs:
+#    path: /v3/api-docs/notification-service
+#
 #management:
 #  tracing:
 #    sampling:

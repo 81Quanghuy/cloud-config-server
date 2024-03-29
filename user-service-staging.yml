@@ -9,6 +9,8 @@ server:
   port: 8000
 
 spring:
+  application:
+    name: user-service
   config:
     import: optional:configserver:http://localhost:8888/
   kafka:
@@ -27,9 +29,6 @@ spring:
     consumer:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       auto-offset-reset: earliest
-
-  application:
-    name: user-service
   servlet:
     multipart:
       max-file-size: 20MB

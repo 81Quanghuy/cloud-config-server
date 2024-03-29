@@ -7,16 +7,18 @@ server:
   port: 8700
 
 spring:
+  application:
+    name: post-service
   data:
     mongodb:
       database: post_service
       uri: mongodb+srv://admin:admin@java-cluster.dydtuf8.mongodb.net/
 
-springdoc:
-  packages-to-scan:
-    com.trvankiet.app
-  api-docs:
-    path: /v3/api-docs/post-service
+#springdoc:
+#  packages-to-scan:
+#    com.trvankiet.app
+#  api-docs:
+#    path: /v3/api-docs/post-service
     
 #management:
 #  tracing:
