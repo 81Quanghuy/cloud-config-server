@@ -12,8 +12,6 @@ api:
   version: v1
 
 spring:
-  application:
-    name: api-gateway
   cloud:
     gateway:
       routes:

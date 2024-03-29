@@ -9,8 +9,6 @@ server:
   port: 8200
 
 spring:
-  application:
-    name: friend-service
   config:
     import: optional:configserver:http://localhost:8888/
   kafka:

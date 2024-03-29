@@ -9,8 +9,6 @@ server:
   port: 8700
 
 spring:
-  application:
-    name: post-service
   data:
     mongodb:
       database: post_service

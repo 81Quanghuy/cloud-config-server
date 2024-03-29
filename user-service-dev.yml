@@ -28,8 +28,6 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       auto-offset-reset: earliest
 
-  application:
-    name: user-service
   servlet:
     multipart:
       max-file-size: 20MB

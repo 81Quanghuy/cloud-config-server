@@ -7,8 +7,6 @@ server:
   port: 8100
 
 spring:
-  application:
-    name: conversation-service
   data:
     mongodb:
       database: conversation_service

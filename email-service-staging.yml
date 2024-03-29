@@ -15,8 +15,6 @@ spring:
     consumer:
       value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
       auto-offset-reset: earliest
-  application:
-    name: email-service
   data:
     mongodb:
       uri: mongodb+srv://huy:huyvff111@cluster0.wteenm1.mongodb.net/testmongo?retryWrites=true&w=majority

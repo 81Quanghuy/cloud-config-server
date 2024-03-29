@@ -7,8 +7,6 @@ server:
   port: 8200
 
 spring:
-  application:
-    name: friend-service
   data:
     mongodb:
       database: friend_service
